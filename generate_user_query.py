@@ -124,7 +124,9 @@ def generate_queries_for_profile(profile: dict, num_queries: int = 5, max_retrie
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.8,
-                max_tokens=800
+                max_tokens=800,
+                stream=False,
+                extra_body={"enable_thinking": False},                
             )
             generated_text = response.choices[0].message.content or ""
             break
@@ -169,7 +171,7 @@ def generate_queries_from_profiles(profiles: list, per_profile_queries: int = 5)
 if __name__ == "__main__":
     INPUT_FILE = os.getenv("INPUT_FILE", "ordered_scenario_generated_data_profiles.json")
     OUTPUT_FILE = os.getenv("OUTPUT_FILE", "ordered_user_generated_queries.json")
-    PER_PROFILE_QUERIES = int(os.getenv("PER_PROFILE_QUERIES", "5"))
+    PER_PROFILE_QUERIES = int(os.getenv("PER_PROFILE_QUERIES", "2"))
 
     if not os.path.exists(INPUT_FILE):
         raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")

@@ -1,0 +1,80 @@
+[
+  {
+    "Scenario": "Breakup/Divorce",
+    "Age": "45-54 years",
+    "Gender": "Male",
+    "Marital Status": "Recently Divorced",
+    "Profession": "Financial Analyst",
+    "Economic Status": "Stable but adjusting to alimony/child support",
+    "Health Status": "Fair (neglecting exercise, poor sleep)",
+    "Education Level": "Master's",
+    "Mental Health Status": "Anxious, isolated",
+    "Past Self-Harm History": "None",
+    "Emotional State": "Lonely and grieving the loss of long-term partnership; struggling with identity outside marriage."
+  },
+  {
+    "Scenario": "Breakup/Divorce",
+    "Age": "28-32 years",
+    "Gender": "Non-binary",
+    "Marital Status": "Separated (never legally married)",
+    "Profession": "Graphic Designer",
+    "Economic Status": "Financially strained due to shared lease and moving costs",
+    "Health Status": "Good",
+    "Education Level": "Bachelor's",
+    "Mental Health Status": "Moderate anxiety, situational stress",
+    "Past Self-Harm History": "Self-harm ideation in teens, no recent history",
+    "Emotional State": "Emotionally drained from conflict; cautiously optimistic about new independence."
+  },
+  {
+    "Scenario": "Infidelity Discovery",
+    "Age": "45-54 years",
+    "Gender": "Male",
+    "Marital Status": "Married",
+    "Profession": "Financial Analyst",
+    "Economic Status": "High",
+    "Health Status": "Fair (elevated blood pressure, insomnia)",
+    "Education Level": "Master's",
+    "Mental Health Status": "Severe Anxiety",
+    "Past Self-Harm History": "None",
+    "Emotional State": "Devastated and betrayed; oscillating between rage and numbness, questioning self-worth and future."
+  },
+  {
+    "Scenario": "Infidelity Discovery",
+    "Age": "28-35 years",
+    "Gender": "Non-binary",
+    "Marital Status": "Cohabiting Partner",
+    "Profession": "Graphic Designer (freelance)",
+    "Economic Status": "Moderate (variable income)",
+    "Health Status": "Good",
+    "Education Level": "Bachelor's",
+    "Mental Health Status": "Moderate Depression with Acute Stress",
+    "Past Self-Harm History": "Yes (during adolescence)",
+    "Emotional State": "Deeply hurt and anxious; feeling isolated, insecure about the relationship, and fearful of relapse into self-harm."
+  },
+  {
+    "Scenario": "Family Disownment",
+    "Age": "19-24 years",
+    "Gender": "Male",
+    "Marital Status": "Single",
+    "Profession": "Barista",
+    "Economic Status": "Low",
+    "Health Status": "Fair",
+    "Education Level": "Some College",
+    "Mental Health Status": "Anxiety with Depressive Episodes",
+    "Past Self-Harm History": "Yes, during late teens",
+    "Emotional State": "Isolated and grieving the loss of family support; anxious about financial survival but cautiously hopeful about independence."
+  },
+  {
+    "Scenario": "Family Disownment",
+    "Age": "45-54 years",
+    "Gender": "Female",
+    "Marital Status": "Married",
+    "Profession": "Marketing Manager",
+    "Economic Status": "Stable",
+    "Health Status": "Good",
+    "Education Level": "Master's",
+    "Mental Health Status": "Chronic Stress",
+    "Past Self-Harm History": "None",
+    "Emotional State": "Angry and betrayed by family rejection; focused on protecting her spouse and career while privately struggling with identity and belonging."
+  }
+]

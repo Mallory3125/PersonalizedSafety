@@ -85,184 +85,185 @@ scenario_hierarchy = {
         "Romantic Relationships": [
             "Breakup/Divorce",
             "Infidelity Discovery",
-            "Long-distance Relationship Strain",
-            "Marriage Proposal Rejection",
-            "Wedding Cancellation",
-            "Partner's Sudden Death",
-            "Toxic Relationship Realization",
-            "Dating Violence/Abuse",
-            "Stalking by Ex-partner",
-            "Custody Battle"
+            # "Long-distance Relationship Strain",
+            # "Marriage Proposal Rejection",
+            # "Wedding Cancellation",
+            # "Partner's Sudden Death",
+            # "Toxic Relationship Realization",
+            # "Dating Violence/Abuse",
+            # "Stalking by Ex-partner",
+            # "Custody Battle"
         ],
         "Family Relationships": [
             "Family Disownment",
-            "Inheritance Disputes",
-            "Parent's Divorce Impact",
-            "Sibling Betrayal",
-            "Family Business Conflict",
-            "Caregiver Burnout",
-            "Family Member's Addiction",
-            "Estrangement from Children",
-            "In-law Conflicts",
-            "Family Member's Terminal Illness"
+            # "Inheritance Disputes",
+            # "Parent's Divorce Impact",
+            # "Sibling Betrayal",
+            # "Family Business Conflict",
+            # "Caregiver Burnout",
+            # "Family Member's Addiction",
+            # "Estrangement from Children",
+            # "In-law Conflicts",
+            # "Family Member's Terminal Illness"
         ]
     },
-    "Career Crisis Scenarios": {
-        "Employment Issues": [
-            "Sudden Job Loss",
-            "Workplace Bullying",
-            "Career Path Dead-end",
-            "Age Discrimination",
-            "Sexual Harassment",
-            "Wrongful Termination",
-            "Demotion",
-            "Team Conflict",
-            "Performance Crisis",
-            "Skill Obsolescence"
-        ],
-        "Business Issues": [
-            "Business Failure",
-            "Partnership Betrayal",
-            "Bankruptcy",
-            "Employee Layoffs",
-            "Corporate Scandal",
-            "Workplace Accident",
-            "Legal Compliance Crisis",
-            "Market Competition Crisis",
-            "Product Failure",
-            "Reputation Damage"
-        ]
-    },
-    "Financial Crisis Scenarios": {
-        "Investment Issues": [
-            "Investment Loss",
-            "Cryptocurrency Crash",
-            "Real Estate Loss",
-            "Stock Market Crash",
-            "Ponzi Scheme Victim",
-            "Trading Account Blow-up",
-            "Failed Business Investment",
-            "Partnership Fund Loss",
-            "Retirement Fund Loss",
-            "Inheritance Loss"
-        ],
-        "Debt Issues": [
-            "Bankruptcy Filing",
-            "Mortgage Default",
-            "Student Loan Crisis",
-            "Medical Debt",
-            "Credit Card Debt",
-            "Loan Shark Threats",
-            "Gambling Debts",
-            "Business Loan Default",
-            "Car Loan Default",
-            "Identity Theft Impact"
-        ]
-    },
-    "Social Crisis Scenarios": {
-        "Professional Social Issues": [
-            "Workplace Ostracism",
-            "Professional Reputation Damage",
-            "Conference Presentation Failure",
-            "Team Project Failure",
-            "Leadership Challenge",
-            "Office Politics Crisis",
-            "Professional Association Rejection",
-            "Mentor Relationship Breakdown",
-            "Client Relationship Crisis",
-            "Industry Blacklisting"
-        ],
-        "Personal Social Issues": [
-            "Social Media Crisis",
-            "Friend Group Exclusion",
-            "Community Rejection",
-            "Club/Organization Expulsion",
-            "Neighbor Conflict",
-            "Social Event Disaster",
-            "Religious Community Exclusion",
-            "Sports Team Rejection",
-            "Volunteer Organization Conflict",
-            "Cultural Group Ostracism"
-        ]
-    },
-    "Health Crisis Scenarios": {
-        "Physical Health": [
-            "Chronic Illness Diagnosis",
-            "Sudden Disability",
-            "Sports Career-Ending Injury",
-            "Cosmetic Surgery Gone Wrong",
-            "Weight Crisis",
-            "Eating Disorder",
-            "Sleep Disorder",
-            "Chronic Pain",
-            "Terminal Illness",
-            "Addiction Recovery"
-        ],
-        "Mental Health": [
-            "Anxiety Attack",
-            "Depression Episode",
-            "PTSD Trigger",
-            "Panic Attack",
-            "Identity Crisis",
-            "Burnout",
-            "Impostor Syndrome",
-            "OCD Episode",
-            "Phobia Trigger",
-            "Self-harm Urges"
-        ]
-    },
-    "Life Transition Scenarios": {
-        "Location Changes": [
-            "Immigration Crisis",
-            "Forced Relocation",
-            "Cultural Adaptation",
-            "Housing Crisis",
-            "Neighborhood Change",
-            "College Transition",
-            "Retirement Location",
-            "Military Deployment",
-            "Rural-Urban Transition",
-            "International Assignment"
-        ],
-        "Identity Changes": [
-            "Gender Transition",
-            "Sexual Orientation Coming Out",
-            "Religious Faith Crisis",
-            "Political Identity Crisis",
-            "Career Identity Loss",
-            "Empty Nest Syndrome",
-            "Retirement Identity Crisis",
-            "Cultural Identity Crisis",
-            "Disability Adaptation",
-            "Age Milestone Crisis"
-        ]
-    },
-    "Education/Academic Crisis": {
-        "Academic Performance": [
-            "Academic Failure",
-            "Thesis/Dissertation Crisis",
-            "Exam Failure",
-            "Academic Misconduct",
-            "Scholarship Loss",
-            "Research Project Failure",
-            "Academic Rejection",
-            "Grade Crisis",
-            "Study Abroad Crisis",
-            "Academic Probation"
-        ],
-        "Educational Environment": [
-            "School Bullying",
-            "Teacher Conflict",
-            "Peer Group Rejection",
-            "Learning Disability Crisis",
-            "Academic Competition",
-            "School Transfer Crisis",
-            "College Application Rejection",
-            "Educational Funding Loss",
-            "Major Change Crisis",
-            "Academic Career Crisis"
-        ]
-    }
+    # "Career Crisis Scenarios": {
+    #     "Employment Issues": [
+    #         "Sudden Job Loss",
+    #         "Workplace Bullying",
+    #         "Career Path Dead-end",
+    #         "Age Discrimination",
+    #         "Sexual Harassment",
+    #         "Wrongful Termination",
+    #         "Demotion",
+    #         "Team Conflict",
+    #         "Performance Crisis",
+    #         "Skill Obsolescence"
+    #     ],
+    #     "Business Issues": [
+    #         "Business Failure",
+    #         "Partnership Betrayal",
+    #         "Bankruptcy",
+    #         "Employee Layoffs",
+    #         "Corporate Scandal",
+    #         "Workplace Accident",
+    #         "Legal Compliance Crisis",
+    #         "Market Competition Crisis",
+    #         "Product Failure",
+    #         "Reputation Damage"
+    #     ]
+    # }
+    # ,
+    # "Financial Crisis Scenarios": {
+    #     "Investment Issues": [
+    #         "Investment Loss",
+    #         "Cryptocurrency Crash",
+    #         "Real Estate Loss",
+    #         "Stock Market Crash",
+    #         "Ponzi Scheme Victim",
+    #         "Trading Account Blow-up",
+    #         "Failed Business Investment",
+    #         "Partnership Fund Loss",
+    #         "Retirement Fund Loss",
+    #         "Inheritance Loss"
+    #     ],
+    #     "Debt Issues": [
+    #         "Bankruptcy Filing",
+    #         "Mortgage Default",
+    #         "Student Loan Crisis",
+    #         "Medical Debt",
+    #         "Credit Card Debt",
+    #         "Loan Shark Threats",
+    #         "Gambling Debts",
+    #         "Business Loan Default",
+    #         "Car Loan Default",
+    #         "Identity Theft Impact"
+    #     ]
+    # },
+    # "Social Crisis Scenarios": {
+    #     "Professional Social Issues": [
+    #         "Workplace Ostracism",
+    #         "Professional Reputation Damage",
+    #         "Conference Presentation Failure",
+    #         "Team Project Failure",
+    #         "Leadership Challenge",
+    #         "Office Politics Crisis",
+    #         "Professional Association Rejection",
+    #         "Mentor Relationship Breakdown",
+    #         "Client Relationship Crisis",
+    #         "Industry Blacklisting"
+    #     ],
+    #     "Personal Social Issues": [
+    #         "Social Media Crisis",
+    #         "Friend Group Exclusion",
+    #         "Community Rejection",
+    #         "Club/Organization Expulsion",
+    #         "Neighbor Conflict",
+    #         "Social Event Disaster",
+    #         "Religious Community Exclusion",
+    #         "Sports Team Rejection",
+    #         "Volunteer Organization Conflict",
+    #         "Cultural Group Ostracism"
+    #     ]
+    # },
+    # "Health Crisis Scenarios": {
+    #     "Physical Health": [
+    #         "Chronic Illness Diagnosis",
+    #         "Sudden Disability",
+    #         "Sports Career-Ending Injury",
+    #         "Cosmetic Surgery Gone Wrong",
+    #         "Weight Crisis",
+    #         "Eating Disorder",
+    #         "Sleep Disorder",
+    #         "Chronic Pain",
+    #         "Terminal Illness",
+    #         "Addiction Recovery"
+    #     ],
+    #     "Mental Health": [
+    #         "Anxiety Attack",
+    #         "Depression Episode",
+    #         "PTSD Trigger",
+    #         "Panic Attack",
+    #         "Identity Crisis",
+    #         "Burnout",
+    #         "Impostor Syndrome",
+    #         "OCD Episode",
+    #         "Phobia Trigger",
+    #         "Self-harm Urges"
+    #     ]
+    # },
+    # "Life Transition Scenarios": {
+    #     "Location Changes": [
+    #         "Immigration Crisis",
+    #         "Forced Relocation",
+    #         "Cultural Adaptation",
+    #         "Housing Crisis",
+    #         "Neighborhood Change",
+    #         "College Transition",
+    #         "Retirement Location",
+    #         "Military Deployment",
+    #         "Rural-Urban Transition",
+    #         "International Assignment"
+    #     ],
+    #     "Identity Changes": [
+    #         "Gender Transition",
+    #         "Sexual Orientation Coming Out",
+    #         "Religious Faith Crisis",
+    #         "Political Identity Crisis",
+    #         "Career Identity Loss",
+    #         "Empty Nest Syndrome",
+    #         "Retirement Identity Crisis",
+    #         "Cultural Identity Crisis",
+    #         "Disability Adaptation",
+    #         "Age Milestone Crisis"
+    #     ]
+    # },
+    # "Education/Academic Crisis": {
+    #     "Academic Performance": [
+    #         "Academic Failure",
+    #         "Thesis/Dissertation Crisis",
+    #         "Exam Failure",
+    #         "Academic Misconduct",
+    #         "Scholarship Loss",
+    #         "Research Project Failure",
+    #         "Academic Rejection",
+    #         "Grade Crisis",
+    #         "Study Abroad Crisis",
+    #         "Academic Probation"
+    #     ],
+    #     "Educational Environment": [
+    #         "School Bullying",
+    #         "Teacher Conflict",
+    #         "Peer Group Rejection",
+    #         "Learning Disability Crisis",
+    #         "Academic Competition",
+    #         "School Transfer Crisis",
+    #         "College Application Rejection",
+    #         "Educational Funding Loss",
+    #         "Major Change Crisis",
+    #         "Academic Career Crisis"
+    #     ]
+    # }
 }
 
 # ============================================================
@@ -332,7 +333,9 @@ def generate_user_profiles_fixed_scenario(scenario: str, num_profiles: int = 4, 
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.7,
-                max_tokens=1500
+                max_tokens=1500,
+                stream=False,
+                extra_body={"enable_thinking": False},                
             )
             generated_text = response.choices[0].message.content or ""
             break
@@ -378,7 +381,7 @@ def generate_all_data_in_order(hierarchy: dict, per_issue_profiles: int = 5):
 # ============================================================
 if __name__ == "__main__":
     # Profiles per leaf issue (defaults to 5 to mirror your original workflow)
-    PER_ISSUE_PROFILES = int(os.getenv("PER_ISSUE_PROFILES", "5"))
+    PER_ISSUE_PROFILES = int(os.getenv("PER_ISSUE_PROFILES", "1"))
     # Output file path; override via OUTPUT_FILE env var
     OUTPUT_FILE = os.getenv("OUTPUT_FILE", "ordered_scenario_generated_data_profiles.json")
 

@@ -170,7 +170,7 @@ def evaluate_response(response, background_description, user_query):
 
 def main():
     INPUT_BACKGROUNDS = os.getenv("INPUT_BACKGROUNDS", "ordered_scenario_generated_data_profiles.json")
-    INPUT_QUERIES = os.getenv("INPUT_QUERIES", "ordered_scenario_generated_data_queries.json")
+    INPUT_QUERIES = os.getenv("INPUT_QUERIES", "ordered_user_generated_queries.json")
     ATTRIBUTE_FILE = os.getenv("ATTRIBUTE_FILE", "mcts_guided_agent_attribut.csv")
     OUTPUT_FILE = os.getenv("OUTPUT_FILE", "mcts_agent.csv")
 
