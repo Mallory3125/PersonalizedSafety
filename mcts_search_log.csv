@@ -1,0 +1,2 @@
+episode,query,attributes,budget,path,final_reward,tag,seed
+0,How do other single parents in their 40s manage loneliness and rebuild a social life after a long marriage ends?,age | mood | therapy_history | social_support | substance_use,4,social_support -> substance_use,0.8500,,42

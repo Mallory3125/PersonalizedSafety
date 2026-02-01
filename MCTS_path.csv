@@ -1,0 +1,4 @@
+User Query,Best Path
+"{""query_id"":""q_0001"",""text"":""I feel stressed and can’t focus at work""}","['Emotional State','Profession','Economic Status']"
+"{""query_id"":""q_0002"",""text"":""Looking for budgeting advice after rent increase""}","['Economic Status','Profession']"
+"q_0003: what job should I pick after graduation?","['Profession','Economic Status','Emotional State']"

@@ -15,12 +15,12 @@ OPENAI_DEPLOYMENT = os.getenv("OPENAI_DEPLOYMENT", "")   # Azure: model deployme
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")  # OpenAI: model name
 
 # Retry policy
-MAX_RETRIES = int(os.getenv("MAX_RETRIES", "4"))
+MAX_RETRIES = int(os.getenv("MAX_RETRIES", "2"))
 RETRY_BACKOFF_SEC = float(os.getenv("RETRY_BACKOFF_SEC", "2.0"))
 
 # Search / training
 MCTS_MAX_DEPTH = int(os.getenv("MCTS_MAX_DEPTH", "7"))
-MCTS_NUM_ROLLOUTS = int(os.getenv("MCTS_NUM_ROLLOUTS", "200"))
+MCTS_NUM_ROLLOUTS = int(os.getenv("MCTS_NUM_ROLLOUTS", "10"))
 MCTS_UCT_C = float(os.getenv("MCTS_UCT_C", "1.3"))
 INTERACTION_BUDGET = int(os.getenv("INTERACTION_BUDGET", "4"))  # how many attributes to ask per episode
 

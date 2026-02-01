@@ -51,6 +51,7 @@ class LLMClient:
                     )
                     return resp.choices[0].message.content or ""
                 else:
+                    print(f"send msg to {config.OPENAI_MODEL}")
                     resp = self.client.chat.completions.create(
                         model=config.OPENAI_MODEL,
                         temperature=temperature,
@@ -59,7 +60,10 @@ class LLMClient:
                             {"role": "system", "content": system or "You are a helpful assistant."},
                             {"role": "user", "content": prompt},
                         ],
+                        stream=False,
+                        extra_body={"enable_thinking": False},                        
                     )
+                    print(resp.choices[0].message.content)
                     return resp.choices[0].message.content or ""
             except Exception as e:
                 if attempt == config.MAX_RETRIES - 1:

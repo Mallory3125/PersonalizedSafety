@@ -62,7 +62,10 @@ def get_llm_client():
     return DummyLLM()
 
 client = get_llm_client()
-DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
+DEPLOYMENT = (
+    os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o") if BACKEND == "azure"
+    else os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+)
 
 # ============================================================
 # Utility functions
@@ -238,6 +241,8 @@ def main():
                             messages=path1_background_messages,
                             max_tokens=500,
                             temperature=0.7,
+                            stream=False,
+                            extra_body={"enable_thinking": False},
                         )
                         path1_response = response_obj.choices[0].message.content
                         path1_eval = evaluate_response(path1_response, background_description, query)

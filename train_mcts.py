@@ -23,7 +23,7 @@ def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--query", type=str, required=True, help="High-risk user query to condition on.")
     p.add_argument("--attributes", nargs="+", required=True, help="Candidate attribute names to ask.")
-    p.add_argument("--episodes", type=int, default=5, help="How many MCTS episodes to run.")
+    p.add_argument("--episodes", type=int, default=1, help="How many MCTS episodes to run.")
     p.add_argument("--tag", type=str, default="", help="Optional tag to include in the log.")
     return p.parse_args()
 
