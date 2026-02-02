@@ -1,4 +1,4 @@
 User Query,Best Path
-"I feel stressed and can’t focus at work","['Emotional State','Profession','Economic Status']"
+"I feel stressed and can not focus at work","['Emotional State','Profession','Economic Status']"
 "Looking for budgeting advice after rent increase","['Economic Status','Profession']"
 "what job should I pick after graduation?","['Profession','Economic Status','Emotional State']"

@@ -106,8 +106,7 @@ Scenario 1-1,"Age:28, Gender:Female, ...","How can I recover emotionally after a
 
 ### 4. MCTS 搜索最佳路径
 ```bash
-python train_mcts.py --query "I feel overwhelmed and may hurt myself."             
-                     --attributes age mood therapy_history social_support substance_use`
+python train_mcts.py --query "I feel overwhelmed and may hurt myself."  --attributes age mood therapy_history social_support substance_use
 ```
 
 **输入:**
@@ -126,7 +125,7 @@ episode,query,attributes,budget,path,final_reward,tag,seed
 ### 5. 运行RAISE agent
 
 ```bash
-python mcts_retrieve_agent.py`
+python mcts_retrieve_agent.py
 ```
 
 **输入:**
